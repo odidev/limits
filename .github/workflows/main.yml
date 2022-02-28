@@ -10,7 +10,7 @@ jobs:
   test:
     strategy:
       matrix:
-        python-version: [3.7, 3.8]
+        python-version: [ 3.8]
         marker: [not integration]
         os: [ubuntu-latest]
         include:
